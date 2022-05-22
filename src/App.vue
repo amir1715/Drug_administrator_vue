@@ -1,13 +1,14 @@
 <template>
 
-  
-<Drugdose/>
+<Clock />  
+<Drugdose />
+
 </template>
 
 <script>
 
 import Drugdose from './components/DrugDosage.vue'
-
+import Clock from './components/Clock.vue'
 
 
 
@@ -16,13 +17,14 @@ export default {
   name: 'App',
 
   components: {
-
+    Clock,
     Drugdose
   }
 }
 </script>
 
 <style>
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -31,4 +33,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>

@@ -1,4 +1,5 @@
 <template>
+<div>
    <p> Drug Name:
       <select v-model="drgName" @change="onChange($event)">
       <option  
@@ -15,7 +16,7 @@
     </p>
 
 <p>{{finalMess}}</p>
-
+</div>
 </template>
 
 <script>
