@@ -1,4 +1,4 @@
-# drug-vue
+## drug-vue
 
 ## Project setup
 ```
